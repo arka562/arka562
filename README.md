@@ -32,9 +32,10 @@
 
 ## About
 
-- Final-year projects and one internship (Adani Power) split across two tracks: **full-stack MERN systems** and **data analysis / ETL**.
-- Every metric below comes from measured testing on the actual project — latency numbers, model accuracy, record counts. None of it is estimated.
-- Full breakdown of experience, education, and certifications is on the **[portfolio site →](https://arkaprava-ghosh-portfolio.netlify.app/)**
+- B.Tech CSE (IoT & Intelligent Systems), Manipal University Jaipur, 2026. Software Developer intern at Adani Power Limited (Feb–Mar 2026).
+- Projects split across two tracks: **full-stack MERN systems** and **data analysis / ML**.
+- Every metric below is from measured testing on the actual project — latency numbers, model accuracy, record counts. Nothing estimated.
+- Full breakdown of experience, education, and certifications: **[portfolio site →](https://arkaprava-ghosh-portfolio.netlify.app/)**
 
 <br>
 
@@ -102,19 +103,32 @@
 </details>
 
 <details>
-<summary><b>🔹 AI Interview Coach</b></summary>
+<summary><b>🔹 AI Interview Prep Platform</b></summary>
 <br>
 
-`MERN` `Gemini` `OpenRouter` `Groq` `Hugging Face`
+`MERN` `Redux Toolkit` `Gemini` `OpenRouter` `Groq` `Hugging Face`
 
 - Built a multi-provider LLM routing system with circuit-breaker fallback across four providers.
 - Load-tested against real provider failures (rate limits, timeouts) — **100% request success** via automatic failover.
 - Groq as primary provider, ~780ms median latency, roughly 3x faster than the Hugging Face fallback.
 - Adaptive interview difficulty based on live user performance; resume parsing (PDF/Text) for personalized scenarios; automated PDF feedback reports.
 
-**[Repo](https://github.com/arka562/ai-interview-coach)** · **[Live Demo](https://meek-kheer-3f184f.netlify.app/login)**
+**[Repo](⚠️ CONFIRM EXACT REPO NAME BEFORE PUBLISHING — draft used "ai-interview-coach", memory says platform is called "AI Interview Prep Platform". Get these to match.)** · **[Live Demo](https://meek-kheer-3f184f.netlify.app/login)**
 
-> ⚠️ Repo name pending confirmation — verify this matches your actual GitHub repo before publishing.
+</details>
+
+<details>
+<summary><b>🔹 IPL Analytics & Prediction Platform</b></summary>
+<br>
+
+`Python` `Streamlit` `SQL` `DuckDB` `Plotly` `Scikit-learn`
+
+- Warehoused **1,200+ matches and 294K+ deliveries** into DuckDB via modular Python scripts.
+- Gradient Boosting score predictor — **R² = 0.618**. Win probability model — **AUC = 0.834**.
+- Season trends, venue par scores, toss impact, phase-wise team/player performance via interactive Plotly charts.
+- SQL with CTEs and window functions (`QUALIFY ROW_NUMBER() OVER (PARTITION BY...)`) for batter rankings.
+
+**[Repo](https://github.com/arka562/ipl_analysis)** · **[Live App](https://iplanalysis-ja3jmqhz5kra7wfydke9xw.streamlit.app/)**
 
 </details>
 
@@ -129,24 +143,7 @@
 - Full ETL pipeline: SQL ingestion → cleaning → feature engineering + one-hot encoding → model training → Power BI dashboard.
 - SQL feature engineering using multi-table joins, CASE WHEN, GROUP BY/HAVING.
 
-**[Repo](https://github.com/arka562/supply-chain-delay-prediction)**
-
-> No live dashboard link exists in your source resumes for this project — add one if you have it.
-
-</details>
-
-<details>
-<summary><b>🔹 IPL Analytics & Prediction Platform</b></summary>
-<br>
-
-`Python` `Streamlit` `SQL` `DuckDB` `Plotly`
-
-- Warehoused **1,200+ matches and 294K+ deliveries** into DuckDB via modular Python scripts.
-- Season trends, venue par scores, toss impact, phase-wise team/player performance via interactive Plotly charts.
-- SQL with CTEs and window functions (`QUALIFY ROW_NUMBER() OVER (PARTITION BY...)`) for batter rankings.
-- Supporting ML models for win probability and score projection, deployed to a production Streamlit dashboard.
-
-**[Repo](https://github.com/arka562/ipl_analysis)** · **[Live App](https://iplanalysis-ja3jmqhz5kra7wfydke9xw.streamlit.app/)**
+**[Repo](https://github.com/arka562/supply-chain-delay-prediction)** · ⚠️ CONFIRM: does a published/shared Power BI dashboard link exist, or is this desktop-only? State one or the other — don't leave this blank.
 
 </details>
 
@@ -156,13 +153,19 @@
 
 `Python` `Pandas` `NumPy` `Streamlit`
 
-- Cleaned and analyzed **10,000+ NCRB crime records**; year-over-year trend analysis and state-wise comparison.
+- Cleaned and analyzed **10,000+ NCRB crime records** (2001–2023); year-over-year trend analysis and state-wise comparison.
 - Production Streamlit dashboard with choropleth maps, crime distribution charts, state-wise filters.
 - Growth-rate forecasting projecting 2021–2023 trends per state; per-capita normalization for fair cross-state comparison.
 
 **[Repo](https://github.com/arka562/india-crime-dashboard)** · **[Live App](https://india-crime-dashboard-s3nmqhlxqnxjze74yj2vdn.streamlit.app/)**
 
 </details>
+
+<br>
+
+## Competitions
+
+- **Tata Steel AI Hackathon** (HackerEarth, 2026) — binary classification for steel coil defect detection under a Recall=1.0 / Precision>90% constraint. Built two-stage cascade architecture with bounding-box pre-filters and OOF threshold tuning.
 
 <br>
 
